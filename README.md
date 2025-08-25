@@ -1,6 +1,8 @@
 # Coffee Roasting Neural Network
 
-This repository contains a simple neural network implemented in Python using NumPy and TensorFlow to classify coffee roast levels based on temperature and duration.
+This repository showcases a neural network model built in Python, leveraging both NumPy for numerical computations and TensorFlow for deep learning operations. The primary objective of this project is to classify different coffee roast levels—such as light, medium, or dark—based on two key input features: temperature and roasting duration.
+
+The implementation is designed to demonstrate how fundamental machine learning concepts can be applied to a real-world use case. It walks through data preprocessing, model architecture, training, and evaluation, making it a valuable reference for beginners learning about neural networks as well as enthusiasts interested in applying AI to food science and roasting analytics.
 
 ## Table of Contents
 - [Introduction](#introduction)
