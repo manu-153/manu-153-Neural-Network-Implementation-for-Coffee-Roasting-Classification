@@ -14,7 +14,7 @@ The implementation is designed to demonstrate how fundamental machine learning c
 - [Dependencies](#dependencies)
 - [Acknowledgments](#acknowledgments)
 
-## Introduction
+## Introduction 
 This project demonstrates a basic neural network that predicts whether a coffee bean is properly roasted based on its temperature and roasting duration. The implementation includes data preprocessing, normalization, forward propagation through a two-layer neural network, and visualization of the decision boundary.
 
 ## Dataset
@@ -30,7 +30,7 @@ The data undergoes the following preprocessing steps:
 1. **Normalization:** The temperature and duration are normalized using TensorFlow's `Normalization` layer.
 2. **Feature Scaling:** Ensures all input features are within a common range for effective training.
 
-## Neural Network
+## Neural Network NN :
 The neural network consists of two layers:
 - **First Dense Layer**: Three neurons with a sigmoid activation function.
 - **Second Dense Layer**: A single neuron with a sigmoid activation function for binary classification.
@@ -40,7 +40,7 @@ The neural network consists of two layers:
 - `my_sequential(x, W1, b1, W2, b2)`: Implements forward propagation through the two-layer network.
 - `my_predict(X, W1, b1, W2, b2)`: Computes predictions for a given input.
 
-## Usage
+## Usage :
 To test the model, run:
 ```python
 X_tst = np.array([[200, 13.9], [200, 17]])  # Sample test data
@@ -56,14 +56,14 @@ decisions =
  [0]]
 ```
 
-## Visualization
+## Visualization :
 The decision boundary of the network is visualized using:
 ```python
 netf = lambda x: my_predict(norm_l(x), W1_tmp, b1_tmp, W2_tmp, b2_tmp)
 plt_network(X, Y, netf)
 ```
 
-## Dependencies
+## Dependencies :
 Ensure you have the following dependencies installed:
 ```bash
 pip install numpy matplotlib tensorflow
